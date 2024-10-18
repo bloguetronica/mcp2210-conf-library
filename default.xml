@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mcp2210config version="1.0">
+    <manufacturer string="Microchip Technology Inc."/>
+    <product string="MCP2210 USB to SPI Master"/>
+    <vid value="4d8"/>
+    <pid value="de"/>
+    <power maximum="32" self="false"/>
+    <remotewakeup capable="false" enabled="true"/>
+    <pins>
+        <gp0 mode="0"/>
+        <gp1 mode="1"/>
+        <gp2 mode="2"/>
+        <gp3 mode="2"/>
+        <gp4 mode="2"/>
+        <gp5 mode="2"/>
+        <gp6 mode="2"/>
+        <gp7 mode="0"/>
+        <gp8 mode="0"/>
+        <gpdir value="ff"/>
+        <gpout value="ff"/>
+    </pins>
+    <interrupt mode="1"/>
+    <spibus captive="false"/>
+    <spisettings>
+        <nbytes value="4"/>
+        <bitrate value="1000000"/>
+        <mode value="0"/>
+        <activecs value="0"/>
+        <idlecs value="ff"/>
+        <delays>
+            <cstodata delay="0"/>
+            <datatocs delay="0"/>
+            <interbyte delay="0"/>
+        </delays>
+    </spisettings>
+</mcp2210config>
